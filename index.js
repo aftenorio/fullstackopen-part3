@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 //const http = require('http')
 
-app.use(express.static('dist'))
+//app.use(express.static('dist'))
 
 const cors = require('cors')
 app.use(cors())
